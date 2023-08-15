@@ -11,7 +11,7 @@ from html_templates import css, user_template, bot_template
 
 def main():
     st.set_page_config(page_title="Pandas Agent")
-    st.subheader("OpenAI LangChain Pandas Agent Chatbot")
+    st.subheader("MTI Pandas Agent")
     st.write("Upload a CSV or XLSX file and query answers from your data.")
 
     # Apply CSS
