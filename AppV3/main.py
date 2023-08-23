@@ -29,7 +29,7 @@ def main():
             TEMP = st.slider(label="LLM Temperature", min_value=0.0, max_value=1.0, value=0.3)
             st.markdown("Adjust the LLM Temperature: A higher value makes the output more random, while a lower value makes it more deterministic.")
             st.markdown("NOTE: Anything above 0.7 may produce hallucinations")
-            st.markdown("### If unable to upload document or getting an error. You will need to set an openai enviroment variable")
+            st.markdown("### If unable to upload document or getting an error. You will need to set an openai environment variable")
 
     # Upload File
     file = st.file_uploader("Upload CSV, XLSX, or PDF file", type=["csv", "xlsx", "pdf"])
