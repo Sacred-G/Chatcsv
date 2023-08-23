@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pdfplumber
 from pdf2image import convert_from_path
 from dotenv import load_dotenv
 from langchain.agents import create_pandas_dataframe_agent
